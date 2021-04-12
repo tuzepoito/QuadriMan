@@ -5,9 +5,17 @@ A four-dimensional adventure.
 
 ## Introduction
 
-"QuadriMan - The Quadri-Guy" is a proof-of-concept of a four-dimensional platformer game. It consists of two parts: "TrioMan" and "QuadriMan". It is advised to play "TrioMan" first, which is set in a three-dimensional world like ours, and then "QuadriMan" once you understand the concept of rotating through dimensions.
+"QuadriMan - The Quadri-Guy" is a proof-of-concept of a four-dimensional platformer game. It consists of two parts: "TrioMan" and "QuadriMan".
 
-I originally wrote QuadriMan taking inspiration from "Miegakure", which (at the time of this writing) is an upcoming four-dimensional puzzle game by Marc ten Bosch. Feel free to check the official website at https://miegakure.com
+It is advised to play "TrioMan" first, which introduces you to the concept of rotating through dimensions. The world in TrioMan is in 3D, like ours, but you can only move through one 2D slice (or plane) at a time.
+
+![TrioMan Animation](./doc/trioman_anim.gif)
+
+Once you understand rotation, you can try "QuadriMan", which adds one more dimension, letting you navigate through a four-dimensional maze. Good luck!
+
+![QuadriMan Animation](./doc/quadriman_anim.gif)
+
+My initial inspiration for Quadriman was Marc ten Bosch's upcoming four-dimensional puzzle game, "Miegakure: Hide and Reveal". Feel free to check the official website at https://miegakure.com
 
 ## How to Build
 
