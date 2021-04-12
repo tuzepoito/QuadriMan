@@ -25,8 +25,18 @@ QuadriMan is an open-source game written in C++, using the [SDL](http://libsdl.o
 Install the tools CMake, and a C++ compiler such as `g++` from the [GNU Compiler Collection (GCC)](http://www.gnu.org/software/gcc/). Then install development libraries for SDL.
 
 On Ubuntu Linux, this can be done with the following command on the command line:
-```
+
+```shell
 $ sudo apt install cmake libsdl2-dev g++
+```
+
+Then run:
+
+```shell
+$ cd QuadriMan
+$ mkdir build && cd build
+$ cmake ..
+$ cmake --build .
 ```
 
 ### Windows
