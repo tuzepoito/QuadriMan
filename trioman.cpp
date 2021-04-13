@@ -160,11 +160,13 @@ bool splashscreen(const char* path) {
 		printf("Failed to load texture \"%s\"", path);
 	}
 	else {
+		/*
 		printf("Texture width: %d\n"
 			"Texture height: %d\n"
 			"Number of channels: %d\n",
 			width, height, nrChannels
 		);
+		*/
 		glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
 	}
 	stbi_image_free(data);
