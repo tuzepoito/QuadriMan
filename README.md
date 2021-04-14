@@ -42,9 +42,13 @@ $ cmake --build .
 ### Windows
 Follow the instructions in [the following link](https://stackoverflow.com/a/44347594). Once you generate the executables, make sure you include "SDL.dll" in the executables' folder.
 
+## Other
+
+[See a QuadriMan walktrough video on YouTube.](https://youtu.be/jCmGpJ6skUQ)
+
 ## License
 QuadriMan is licensed under the MIT License; see the file "LICENSE.txt" for details.
 
 This software makes use of the Simple Media Layer (SDL) library, which is available under the zlib license; see http://libsdl.org/license.php
 
-The source code of QuadriMan includes "stb_image.h", an image loading library written in C and released to the public domain by Sean Barrett. See http://github.com/nothings/stb for more information.
+The source code of QuadriMan includes "stb\_image.h", an image loading library written in C and released to the public domain by Sean Barrett. See http://github.com/nothings/stb for more information.
